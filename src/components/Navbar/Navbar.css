@@ -1,0 +1,50 @@
+header{
+  background-color: #333333;
+  box-shadow: 0 4px 7px rgb(0, 0, 0, 0.25);
+}
+
+header nav#navbar{
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+
+  max-width: 1240px;
+  margin: 0 auto;
+  padding: 0 2rem;
+  height: 90px;
+}
+
+header nav#navbar .nav-brand{
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+
+.nav-brand h1{
+  font-family: "Grenze", serif;
+  font-weight: 400;
+  font-size: 2rem;
+}
+
+.nav-list{
+  list-style: none;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  gap: 1rem;
+}
+
+a{
+  color: aliceblue;
+  text-decoration: none;
+  font-size: 1.1rem;
+}
+
+a:hover{
+  color: #61DAFB;
+  transition: color 0.3s;
+}
+
+img{
+  width: 15%;
+}
