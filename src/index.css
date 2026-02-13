@@ -11,3 +11,13 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 }
+
+section#articles {
+  max-width: 1240px;
+  padding: 0 10rem;
+  margin: 4rem 0 auto;
+  
+  display: flex;
+  flex-direction: column;
+  gap: 46px;
+}
